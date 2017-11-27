@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+	Home Page - My ASP.NET Application
+</title>
+<link href="Site.css" rel="stylesheet"/>
+<link href="owl.carousel.css" type="text/css" rel="stylesheet" media="all" />
+<link href="owl.theme.default.css" type="text/css" rel="stylesheet" media="all" />
+
+    <script type="text/javascript" src="jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="owl.carousel.min.js"></script>
+
+    
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" /></head>
+<body>
+    
+    <div class="center">
+
+        <div id="owl-slider" class="owl-carousel owl-theme">
+            <div>
+                <img src="3.jpg" />
+                <a href="#">Lorem ipsum dolor sit amet</a>
+            </div>
+            <div>
+                <img src="3.jpg" />
+                <a href="#">Şorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+            </div>
+            <div>
+                <img src="3.jpg" />
+                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et sollicitudin quam. Donec malesuada vitae lectus vel vulputate.</a>
+            </div>
+            <div>
+                <img src="3.jpg" />
+                <a href="#">Lorem ipsum dolor sit amet</a>
+            </div>
+            <div>
+                <img src="3.jpg" />
+                <a href="#">Şorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+            </div>
+            <div>
+                <img src="3.jpg" />
+                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et sollicitudin quam. Donec malesuada vitae lectus vel vulputate.</a>
+            </div>
+            <div>
+                <img src="3.jpg" />
+                <a href="#">Lorem ipsum dolor sit amet</a>
+            </div>
+            <div>
+                <img src="3.jpg" />
+                <a href="#">Şorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+            </div>
+            <div>
+                <img src="3.jpg" />
+                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et sollicitudin quam. Donec malesuada vitae lectus vel vulputate.</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        /*
+        var slider = tns({
+            container: '#tiny-slider',
+            items: 3,
+            slideBy: 1,
+            loop: false,
+            autoHeight: false,
+            edgePadding: 10,
+            gutter: 10,
+            responsive: {
+                900: {
+                    items: 3,
+                    fixedWidth: false
+                },
+                640: {
+                    edgePadding: 5,
+                    gutter: 5,
+                    items: 3,
+                    fixedWidth: 200
+                },
+                320: {
+                    gutter: 5,
+                    edgePadding: 0,
+                    items: 1,
+                    fixedWidth: 300
+                }
+            }
+        });
+        */
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 1,
+                center: true,
+                stagePadding: 0,
+                margin: 0,
+                autoHeight: true
+            });
+            /*
+            $('#slick-slider').slick({
+                centerMode: true,
+                centerPadding: '50px',
+                infinite: false,
+                slidesToShow: 1
+            });
+            */
+        });
+    </script>
+
+
+</body>
+</html>
